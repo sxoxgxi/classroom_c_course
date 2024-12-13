@@ -20,4 +20,6 @@ int main() {
             printf("%d is a prime number\n", num);
         }
     }
+
+    return 0;
 }
