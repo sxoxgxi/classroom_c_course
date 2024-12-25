@@ -1,4 +1,4 @@
-// Question number 10: fibonacci series to nth term
+// Question number 6: fibonacci series to nth term
 
 #include <stdio.h>
 int main() {

@@ -1,5 +1,4 @@
-// Question Number 4: Armstrong or not!
-
+// Question Number 2: Armstrong or not using while loop
 #include <stdio.h>
 #include <math.h>
 
@@ -8,7 +7,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &num);
     original= num;
-
+    
     while (original != 0) {
         original/= 10;
         n++;

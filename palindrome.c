@@ -1,24 +1,28 @@
-// Question 8: Palindrome or not
+// Question 1: Palindrome or not using do-while loop
 
 #include <stdio.h>
 
 int main() {
-    int num, reversed= 0, remainder, original;
+    int num, original, reversed = 0, remainder;
+
     printf("Enter a number: ");
     scanf("%d", &num);
-    original= num;
 
-    while (num != 0) {
+    original = num; 
+
+    do {
         remainder = num % 10;
-        reversed= reversed* 10 + remainder;
-        num /= 10;
-    }
+        reversed = reversed * 10 + remainder;
+        num = num / 10;
+    } while (num != 0);
 
-    if (original== reversed)
-        printf("%d is a palindrome\n", original);
-    else
-        printf("%d is not a palindrome\n", original);
+    if (original == reversed) {
+        printf("%d is a palindrome number.\n", original);
+    } else {
+        printf("%d is not a palindrome number.\n", original);
+    }
 
     return 0;
 }
+
 
