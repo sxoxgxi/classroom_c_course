@@ -14,7 +14,7 @@ void largest(int n, int num[]){
 int main(){
     int i, n;
     printf("Enter no. of element: ");
-    scanf("&d", &n);
+    scanf("%d", &n);
     int num[n];
     for (i=0; i<n; i++){
        scanf("%d", &num[i]);
