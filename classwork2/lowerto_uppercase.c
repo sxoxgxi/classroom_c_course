@@ -1,8 +1,5 @@
 // convert a lowercase character string into uppercase using array;
-
-
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
